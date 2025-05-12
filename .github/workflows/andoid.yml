@@ -19,7 +19,7 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-          cache: gradle # ~/.gradle and ~/.m2
+#          cache: gradle # ~/.gradle and ~/.m2
 
       - name: Download Android SDK components
         uses: android-actions/setup-android@v3
